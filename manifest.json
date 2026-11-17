@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "网页章节采集工具（Rokid 试用版）",
+  "version": "1.0.0",
+  "description": "在当前打开的 Rokid 文档页采集目录章节，导出为 JSON。",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": [
+    "https://custom.rokid.com/*",
+    "https://rokid-ota.oss-cn-hangzhou.aliyuncs.com/*",
+    "https://ota.rokidcdn.com/*"
+  ],
+  "action": { "default_popup": "popup.html" }
+}
